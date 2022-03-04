@@ -376,3 +376,4 @@ bot.on('callback_query', async (msg) => {
     await bot.sendMessage(chatId, `Можливі варианти:${bd[area][typeOfStaf]}`)
   }
 })
+console.log(bd)
