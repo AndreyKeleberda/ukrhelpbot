@@ -2,7 +2,7 @@ const telegramApi = require('node-telegram-bot-api')
 const token = '5223300284:AAGr1kPhF848KMmzjoAfgtLnDFSeG1yNlPA'
 const bot = new telegramApi(token, { polling: true })
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+bot.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
 });
 // база данных
