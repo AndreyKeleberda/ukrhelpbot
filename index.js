@@ -1,7 +1,7 @@
 const telegramApi = require('node-telegram-bot-api')
 const token = '5223300284:AAGr1kPhF848KMmzjoAfgtLnDFSeG1yNlPA'
 const bot = new telegramApi(token, { polling: true })
-bot..listen(process.env.PORT || 5000)
+bot.listen(process.env.PORT || 5000)
 // база данных
 let bd = {
   kyiv: {
