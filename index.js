@@ -1,6 +1,9 @@
 const telegramApi = require('node-telegram-bot-api')
 const token = '5223300284:AAGr1kPhF848KMmzjoAfgtLnDFSeG1yNlPA'
 const bot = new telegramApi(token, { polling: true })
+setInterval(() => {
+  http.get("http://yourapp.herokuapp.com/", (res) => {})
+}, 1 * 60 * 1000)
 // база данных
 let bd = {
   kyiv: {
